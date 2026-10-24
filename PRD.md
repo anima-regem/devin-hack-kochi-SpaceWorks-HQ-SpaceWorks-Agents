@@ -1,11 +1,11 @@
 # Product requirements: SpaceWorks-Agents
 
-**Version:** 1.1  
-**Date:** 24 October 2026  
+**Version:** 1.1
+**Date:** 24 October 2026
 **Status:** Implementation authorized on 24 October 2026. Staff operations prioritized.
-**Implementation status:** See [phase tracker](docs/IMPLEMENTATION.md); requirements below are not claims of completed features.  
-**Project repository:** [SpaceWorks-HQ/SpaceWorks-Agents](https://github.com/SpaceWorks-HQ/SpaceWorks-Agents)  
-**Documentation template:** [DevDay Kochi hackathon template](https://github.com/anima-regem/devday-kochi-hackathon-template)  
+**Implementation status:** See [phase tracker](docs/IMPLEMENTATION.md); requirements below are not claims of completed features.
+**Project repository:** [SpaceWorks-HQ/SpaceWorks-Agents](https://github.com/SpaceWorks-HQ/SpaceWorks-Agents)
+**Documentation template:** [DevDay Kochi hackathon template](https://github.com/anima-regem/devday-kochi-hackathon-template)
 **Application family reference:** [SpaceWorks-HQ repositories](https://github.com/orgs/SpaceWorks-HQ/repositories)
 
 ## Project overview

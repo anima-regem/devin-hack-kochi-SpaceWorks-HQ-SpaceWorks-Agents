@@ -8,3 +8,7 @@
 OpenAI Docs was used for optional Responses API structured planning. No API key
 was configured during foundation development; no live provider test is claimed.
 There is no claim that this implementation was built at the template's event.
+
+Phase 1: parallel Codex agents implemented and reviewed discovery/integration, staff
+domain and boundary tests. Parent integrated transaction-isolation fixes. Human
+review pending. Verified 43 phase tests, typecheck and build before committing.

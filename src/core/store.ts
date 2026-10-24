@@ -12,9 +12,9 @@ export class MemoryStore<T> implements StateStore<T> {
   transact<R>(change: (state: T) => R | Promise<R>): Promise<R> {
     const result = this.tail.then(async () => {
       const draft = structuredClone(this.state);
-      const output = await change(draft);
-      this.state = draft;
-      return structuredClone(output);
+      const output = structuredClone(await change(draft));
+      this.state = structuredClone(draft);
+      return output;
     });
     this.tail = result.catch(() => undefined);
     return result;
@@ -96,8 +96,9 @@ export class JsonFileStore<T> implements StateStore<T> {
     return this.enqueue(async () => {
       const previous = await this.recover();
       const draft = structuredClone(previous.state);
-      const result = await change(draft);
-      const content = { version: 1 as const, sequence: previous.sequence + 1, at: new Date().toISOString(), previous: previous.lastHash, state: draft };
+      const result = structuredClone(await change(draft));
+      const committed = structuredClone(draft);
+      const content = { version: 1 as const, sequence: previous.sequence + 1, at: new Date().toISOString(), previous: previous.lastHash, state: committed };
       const record = { ...content, hash: hash(content) };
       const journal = await open(path.join(this.directory, 'journal.ndjson'), 'a', 0o600);
       try { await journal.writeFile(`${JSON.stringify(record)}\n`); await journal.sync(); }
@@ -107,11 +108,11 @@ export class JsonFileStore<T> implements StateStore<T> {
       const temporary = path.join(this.directory, `.snapshot-${randomUUID()}`);
       try {
         const snapshot = await open(temporary, 'wx', 0o600);
-        try { await snapshot.writeFile(JSON.stringify(draft, null, 2)); await snapshot.sync(); }
+        try { await snapshot.writeFile(JSON.stringify(committed, null, 2)); await snapshot.sync(); }
         finally { await snapshot.close(); }
         await rename(temporary, path.join(this.directory, 'state.json'));
       } catch { await unlink(temporary).catch(() => undefined); }
-      return structuredClone(result);
+      return result;
     });
   }
 }

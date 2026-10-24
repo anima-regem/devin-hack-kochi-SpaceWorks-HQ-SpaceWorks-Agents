@@ -1,12 +1,12 @@
 # Implementation phases
 
-## Phase 0 — foundation
+## Phase 0 — foundation (committed)
 
 TypeScript strict ESM, Node20+, shared contracts, YAML configuration, memory/file
 stores, append-only journal and DevDay-style documentation. Foundation checks
 must pass before the phase commit.
 
-## Phase 1 — staff workflows and app integration
+## Phase 1 — staff workflows and app integration (verified)
 
 Parallel tracks: staff inventory domain; evidence-based discovery and scoped
 endpoint generation. Validate permission/tenant isolation, confirmation,
