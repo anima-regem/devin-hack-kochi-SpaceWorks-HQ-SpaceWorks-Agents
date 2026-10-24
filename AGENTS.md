@@ -20,5 +20,6 @@ priority is automating staff operations, not only member self-service.
 - Keep modules focused, preferably below 300 lines. Do not commit secrets/state.
 - Parallel agents own separate modules and never commit. Parent integrates/tests.
 - Before a phase commit run npm run check and update CHANGELOG.md / AI_USAGE.md.
-- Follow the supplied DevDay documentation structure without claiming historical
-  event participation, eligibility or a demo that does not exist.
+- Follow the supplied documentation structure for Devin Hack Kochi without claiming
+  unverified participation, eligibility or a demo that does not exist. The event has
+  no major AI usage constraints; the template requires no specific tool or provider.

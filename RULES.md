@@ -1,10 +1,12 @@
 # Project rules and template provenance
 
+The event is **Devin Hack Kochi**, which has no major AI usage constraints. Participants may use Devin and other AI tools, models, and providers; this template does not require Codex or restrict AI usage to OpenAI. AI usage notes are project documentation, not an additional event eligibility requirement.
+
 This project's documentation structure is adapted from the
-[DevDay Kochi hackathon template](https://github.com/anima-regem/devday-kochi-hackathon-template).
-Its [event rules](https://github.com/anima-regem/devday-kochi-hackathon-template/blob/main/RULES.md)
-describe an open-theme event on 10–11 October 2026. Those historical dates and
-eligibility statements are not claims about this project's development.
+[original documentation template](https://github.com/anima-regem/devday-kochi-hackathon-template).
+The organizer shared that older template by mistake. Its event details and
+eligibility statements do not establish rules for Devin Hack Kochi. Follow the
+current organizers' instructions for logistics, eligibility, submission, and credits.
 
 ## Current working rules
 

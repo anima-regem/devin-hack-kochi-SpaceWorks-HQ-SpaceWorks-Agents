@@ -5,7 +5,7 @@
 **Status:** Implementation authorized on 24 October 2026. Staff operations prioritized.
 **Implementation status:** See [phase tracker](docs/IMPLEMENTATION.md); requirements below are not claims of completed features.
 **Project repository:** [SpaceWorks-HQ/SpaceWorks-Agents](https://github.com/SpaceWorks-HQ/SpaceWorks-Agents)
-**Documentation template:** [DevDay Kochi hackathon template](https://github.com/anima-regem/devday-kochi-hackathon-template)
+**Documentation template:** [original documentation template](https://github.com/anima-regem/devday-kochi-hackathon-template)
 **Application family reference:** [SpaceWorks-HQ repositories](https://github.com/orgs/SpaceWorks-HQ/repositories)
 
 ## Project overview
@@ -487,8 +487,9 @@ measurement. No performance result is claimed in this planning document.
 
 The four track names below come from the user's earlier screenshot. They are
 positioning options, not rules asserted by the supplied repository template.
-That template describes an open-theme DevDay event dated 10–11 October 2026;
-using its documentation structure does not claim participation or eligibility.
+The current event is **Devin Hack Kochi**, which has no major AI usage
+constraints. The documentation structure came from an older event template
+shared by mistake; its event details do not establish current eligibility rules.
 
 **Primary: Kill the Busywork.** Demonstrate an actual inventory workflow completed
 under configured rules, with less work for members and staff.

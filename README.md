@@ -38,7 +38,11 @@ their verified status and usage will be updated at subsequent phase checkpoints.
 
 [AGENTS.md](AGENTS.md), [RULES.md](RULES.md), [CHANGELOG.md](CHANGELOG.md),
 [AI_USAGE.md](AI_USAGE.md), [SUBMISSION.md](SUBMISSION.md) and the PR template follow
-the [DevDay Kochi documentation template](https://github.com/anima-regem/devday-kochi-hackathon-template).
+the [original documentation template](https://github.com/anima-regem/devday-kochi-hackathon-template).
 This does not assert participation in that historical event.
 
 License intent: AGPL-3.0-or-later, matching the SpaceWorks ecosystem.
+
+## Event clarification
+
+The event is **Devin Hack Kochi**, which has no major AI usage constraints. Participants may use Devin and other AI tools, models, and providers; this template does not require Codex or restrict AI usage to OpenAI. AI usage notes are project documentation, not an additional event eligibility requirement.

@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-10-24T21:53:05+05:30 — Correct Devin Hack Kochi event guidance
+
+- Changed: corrected the current event name and AI tool guidance in `AGENTS.md`, `AI_USAGE.md`, `CHANGELOG.md`, `PRD.md`, `README.md`, `RULES.md`.
+- Why: the organizer shared an older event template; Devin Hack Kochi has no
+  major AI usage constraints and the template must not require a particular AI provider.
+- Scope: preserved project implementation and historical assistance records.
+- Validation: reviewed documentation diffs, checked whitespace with `git diff --check`, and checked local Markdown links for new breakage.
+- Limitations: maintainer review is pending; application tests were not run for this documentation-only correction.
+
 ## 2026-10-24T21:41:14+05:30 — Phase 1: staff workflows and scoped integration
 
 - Changed: Implemented inventory catalogue/receipts/corrections, consumable taking,
