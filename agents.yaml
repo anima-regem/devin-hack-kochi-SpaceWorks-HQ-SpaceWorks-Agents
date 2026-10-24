@@ -1,0 +1,5 @@
+port: 4317
+dataDir: .data
+automationIntervalSeconds: 60
+llm: offline
+model: ''
